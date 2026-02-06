@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 数据文件
+*.csv
+*.pkl
+*.h5
+*.feather
+*.parquet
+*.db
+*.sqlite
+
+# 回测结果
+results/
+output/
+logs/
+
+# 密钥文件
+config/secrets.py
+*.key
+*.pem
+
+# 其他
+.DS_Store
