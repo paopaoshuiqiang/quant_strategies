@@ -33,6 +33,7 @@ class MovingAverageStrategy:
         strategy_returns = positions.shift(1) * returns
 
         # 计算累计收益
+
         cumulative_returns = (1 + strategy_returns).cumprod()
 
         return {
